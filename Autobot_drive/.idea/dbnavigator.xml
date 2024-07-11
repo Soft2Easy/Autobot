@@ -17,19 +17,22 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="6c5683f1-2801-4eec-b6f0-b747def9f38b">
-      <console name="Autobots_db" type="STANDARD" schema="" session="Main"><![CDATA[select * from autobot_app_car]]></console>
+      <console name="Autobots_db" type="STANDARD" schema="" session="Main"><![CDATA[delete from autobot_app_servicerec where id = 1]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="6c5683f1-2801-4eec-b6f0-b747def9f38b" object-ref="consoles/Autobots_db" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="6c5683f1-2801-4eec-b6f0-b747def9f38b" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="6c5683f1-2801-4eec-b6f0-b747def9f38b" dataset="main.autobot_app_servicerec" active-filter-id="" />
     <filter-actions connection-id="6c5683f1-2801-4eec-b6f0-b747def9f38b" dataset="main.autobot_app_car" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
