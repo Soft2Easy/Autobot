@@ -32,3 +32,6 @@ class ServiceRec(models.Model):
     def __str__(self):
         return f"{self.date},{self.type_of_service},{self.service_provider},{self.note}"
 
+
+
+

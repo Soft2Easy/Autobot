@@ -119,4 +119,29 @@ def service_records_details(request, id):
         return Response(record_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
     elif request.method == 'DELETE':
         record.delete()
-        return Response(status = status.HTTP_204_NO_CONTENT)
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
+
+#Page rendering
+def home_page(request):
+    return render(request, 'home.html')
+
+
+def car_page(request):
+    return render(request, 'car.html')
+
+
+def registration_page(request):
+    return render(request, 'registration.html')
+
+
+def dashboard_page(request):
+    return render(request, 'dashboard.html')
+
+
+def service_provider(request):
+    return render(request, 'service_provider.html')
+
+
+def service_details(request):
+    return render(request, 'service_details.html')
